@@ -1,0 +1,181 @@
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Resume — 湖氏梅 (學號 114011147)</title>
+  <style>
+    :root{
+      --bg:#f6f8fb; --card:#ffffff; --muted:#6b7280; --accent:#3b82f6;
+      --maxw:900px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#eef3fb);color:#111;font-size:16px;line-height:1.45}
+    .container{max-width:var(--maxw);margin:28px auto;padding:20px}
+    .card{background:var(--card);border-radius:12px;box-shadow:0 6px 22px rgba(14,30,37,0.08);overflow:hidden;display:grid;grid-template-columns:280px 1fr}
+    .left{padding:28px;background:linear-gradient(180deg,#fbfdff, #f3f8ff)}
+    .right{padding:28px}
+    .avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:30px;margin-bottom:16px}
+    h1{margin:0;font-size:20px}
+    .meta{color:var(--muted);font-size:14px;margin-top:6px}
+    .section{margin-bottom:18px}
+    .section h3{margin:0 0 8px 0;font-size:14px}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:#eef6ff;color:var(--accent);font-size:13px;margin:4px 6px 0 0}
+    ul{padding-left:16px;margin:6px 0}
+    .skill-list{display:flex;flex-wrap:wrap}
+    .skill{background:#f3f6ff;border-radius:8px;padding:6px 8px;margin:6px 8px 0 0;font-size:13px;color:#0f172a}
+    .muted{color:var(--muted)}
+    .contact-item{font-size:14px;margin-bottom:8px}
+    .controls{display:flex;gap:10px;align-items:center}
+    button{cursor:pointer;border:0;border-radius:8px;padding:8px 12px;font-weight:600}
+    .btn-primary{background:var(--accent);color:white}
+    .btn-ghost{background:transparent;border:1px solid #e6eefc;color:var(--accent)}
+    .print-note{font-size:13px;color:var(--muted);margin-top:8px}
+    @media (max-width:880px){.card{grid-template-columns:1fr}.left{display:flex;gap:20px;align-items:center;padding:18px}.right{padding:18px}}
+    .row{display:flex;justify-content:space-between;gap:12px}
+    .row .col{flex:1}
+    .title{font-weight:700}
+    footer{font-size:13px;color:var(--muted);text-align:center;padding:14px}
+  </style>
+  <style type="text/css">* {-webkit-user-select: text !important;-moz-user-select: text !important;-ms-user-select: text !important;user-select: text !important;}</style>
+</head>
+
+<body>
+  <div class="container">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+      <div><strong>Resume20251030hsm</strong> · 湖氏梅</div>
+      <div class="controls">
+        <button class="btn-primary" id="printBtn">列印 / 存為 PDF</button>
+        <button class="btn-ghost" id="toggleTheme">切換深色模式</button>
+      </div>
+    </div>
+
+    <div class="card" id="resumeCard">
+      <aside class="left">
+        <div style="display:flex;flex-direction:column;align-items:flex-start">
+          <div class="avatar">
+            <img src="569b1f10-a923-45e3-a1bd-2a118644a670.jpg" alt="個人照片" style="width:96px;height:96px;border-radius:12px;object-fit:cover;">
+          </div>
+          <h1><b>湖氏梅</b></h1>
+          <div class="meta"><b>學號：</b>114011147 · 亞洲大學 一年級</div>
+        </div>
+
+        <div class="section">
+          <h3><b>聯絡資訊</b></h3>
+          <div class="contact-item"><strong>Email:</strong> <span class="muted">hothimaimv123@gmail.com</span></div>
+          <div class="contact-item"><strong>電話:</strong> <span class="muted">(09) 1234-5678</span></div>
+          <div class="contact-item"><strong>地點:</strong> <span class="muted">台中市, 台灣</span></div>
+        </div>
+
+        <div class="section">
+          <h3><b>技能</b></h3>
+          <div class="skill-list">
+            <span class="skill">現代舞</span>
+            <span class="skill">唱歌</span>
+            <span class="skill">烘焙</span>
+            <span class="skill">寫作</span>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3><b>語言</b></h3>
+          <div class="badge">越南語（母語）</div>
+          <div class="badge">中文（基礎）</div>
+          <div class="badge">英文（基礎）</div>
+        </div>
+
+        <div class="section">
+          <h3><b>興趣</b></h3>
+          <div class="muted">舞蹈、閱讀、烘焙、羽球、登山</div>
+        </div>
+      </aside>
+
+      <main class="right">
+        <section class="section">
+          <h3><b>個人簡介</b></h3>
+          <p class="muted">
+            嗨！我是<b>湖氏梅</b>，亞洲大學健康管理學系的一年級學生。來自越南，一個美麗而平靜的國家，我為此感到非常自豪。<br><br>
+            對我來說，台灣不僅風景優美，還充滿了生命力——每一條街道、每一道料理、每一個笑容都蘊含著溫暖與文化的氣息。<br><br>
+            我喜歡閱讀與音樂，也熱愛大自然，常常參加登山與戶外活動。我喜歡觀察人們的行為與表情，因為我覺得，生活中的每一個細節都有它的意義。<br><br>
+            我希望四年後，自己能成為一個美麗、自信、有穩定工作的女性，懂得去愛與關心身邊的人。<br>
+            我會一直努力，不輕言放棄！
+          </p>
+        </section>
+
+        <section class="section">
+          <h3><b>學歷</b></h3>
+          <div>
+            <div class="row">
+              <div class="col">
+                <div class="title">亞洲大學</div>
+                <div class="muted">健康管理學系 · 在學中 · 一年級</div>
+              </div>
+              <div class="col" style="text-align:right">
+                <div class="muted">入學年份：2024</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h3><b>實作 / 專案</b></h3>
+          <ul>
+            <li>參與跨國文化交流與藝術活動，運用舞蹈與化妝技巧進行表演與互動。</li>
+            <li>我擅長化妝，並經常與朋友分享化妝技巧，同時利用舞蹈能力參與各類文化活動與聯誼演出。</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h3><b>工作經驗</b></h3>
+          <p class="muted">
+            我曾在一家餐廳工作半年，學會了與顧客互動、溝通，並培養了工作上的責任感與團隊協作能力。<br><br>
+            我也曾在台灣旅遊與登山，透過這些經歷更加了解這片土地的文化與人情，並深深愛上這裡的自然之美。
+          </p>
+        </section>
+
+        <section class="section">
+          <h3><b>職涯目標</b></h3>
+          <p class="muted">
+            短期目標：不斷提升語言能力與專業技能，適應學習與生活環境。<br>
+            長期目標：成為能夠關懷他人、兼具專業與溫度的健康管理專業人才。
+          </p>
+        </section>
+
+        <div style="display:flex;gap:12px;margin-top:12px;align-items:center">
+          <button class="btn-primary" id="downloadHtml">下載 HTML 檔</button>
+          <button class="btn-ghost" id="copyId">複製學號</button>
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      這是一份自動產生的個人履歷範本。可按「列印 / 存為 PDF」輸出正式檔案。
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('printBtn').addEventListener('click',()=>window.print());
+    const toggle=document.getElementById('toggleTheme');
+    toggle.addEventListener('click',()=>{
+      document.documentElement.style.setProperty('--bg', getComputedStyle(document.documentElement).getPropertyValue('--bg').includes('#0')? '#f6f8fb' : '#0b1220');
+      document.documentElement.style.setProperty('--card', getComputedStyle(document.documentElement).getPropertyValue('--card').includes('#f')? '#071129' : '#ffffff');
+      document.documentElement.style.setProperty('--muted', getComputedStyle(document.documentElement).getPropertyValue('--muted').includes('#6')? '#9aa4b2' : '#6b7280');
+      document.documentElement.style.setProperty('--accent', getComputedStyle(document.documentElement).getPropertyValue('--accent').includes('#3')? '#60a5fa' : '#3b82f6');
+      document.body.style.color = document.body.style.color === '#fff' ? '#111' : '#fff';
+    });
+
+    document.getElementById('downloadHtml').addEventListener('click',()=>{
+      const blob = new Blob([document.documentElement.outerHTML], {type: 'text/html'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = 'resume_114011147.html';
+      document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+    });
+
+    document.getElementById('copyId').addEventListener('click',()=>{
+      navigator.clipboard && navigator.clipboard.writeText('114011147');
+      alert('學號 114011147 已複製到剪貼簿');
+    });
+  </script>
+</body>
+</html>
